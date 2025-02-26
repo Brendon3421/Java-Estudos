@@ -18,7 +18,7 @@ public class JavaTime {
 		// Representação de um LocalDate: 2023-03-01
 
 		// este conteúdo pode ser um argumento de seu programa via console
-		// ou toString() de algum componente visual
+		// ou toString() de algum componente visualj
 		String stringData = "2023-01-17";
 
 		LocalDate dataConcreta = LocalDate.parse(stringData);
@@ -37,7 +37,7 @@ public class JavaTime {
 
 		// data2 está antes que data 1? flase
 		System.out.println(data2.isBefore(data1));
-
+		
 		// data2 é igual a data 1? false
 		System.out.println(data2.isEqual(data1));
 
